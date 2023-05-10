@@ -1,5 +1,8 @@
-from app import *
+from model import *
 
 
-def test(param):
-    print(param)
+def create(title, content):
+    note = Notes(title = title, content = content)
+    note.save()
+
+
