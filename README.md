@@ -19,6 +19,6 @@ From the terminal, add the following and add an arg option dependent on what you
 
 2. To view notes: ```$ python3 app.py -v``` 
 
-3. To delete a note by it's id number: ```$ python3 app.py -d (#)```
+3. To delete a note by its id number: ```$ python3 app.py -d (#)```
 
 
