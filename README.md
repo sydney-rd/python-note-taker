@@ -1,7 +1,11 @@
 # Python Note Taker
 A note taker to keep track of your daily notes. Great for organizing your daily tasks.
 
-# Installation and Usage
+# Requirements
+* Python
+* SQL and PeeWee
+
+# Usage
 * Clone the repo: ```$ git clone https://github.com/sydney-rd/python-note-taker.git```
 
 * Change to lib directory: ```$ cd lib```
