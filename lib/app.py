@@ -2,7 +2,6 @@ from model import *
 import argparse
 from commands import *
 
-
 def main():
     parser = argparse.ArgumentParser(description="Enter title and content of your note")
     parser.add_argument("-t", "--title", type=str, help="Title of your note")

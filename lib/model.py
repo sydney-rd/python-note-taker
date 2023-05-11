@@ -17,4 +17,3 @@ class Notes(BaseModel):
     content = CharField()
 
 db.create_tables([Notes])
-
