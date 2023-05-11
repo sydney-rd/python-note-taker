@@ -8,3 +8,13 @@ def create(title, content):
 def view():
     for note in Notes.select():
         print(model_to_dict(note))
+
+def delete(note_id):
+    note = Notes.get_or_none(id=note_id)
+    if note:
+        title = note.title
+        note.delete_instance()
+        print(f"Note '{title}' deleted successfully.")
+    else:
+        print(f"Note with ID '{note_id}' does not exist.")
+
